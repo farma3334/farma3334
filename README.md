@@ -133,6 +133,11 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
       <b>SQLite</b><br>
       <sub>Embedded</sub>
     </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=neovim" width="48"><br>
+      <b>Neovim</b><br>
+      <sub>Editor</sub>
+    </td>
   </tr>
 </table>
 
