@@ -14,12 +14,17 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> What I work with
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,py,js,html,css&perline=5" alt="Tech Stack">
+</p>
+
 | Stack | For |
 |:------|:----|
-| 🦀 **Rust** | High-performance backends & system tools |
-| ⚙️ **Python** | Discord bots & automation |
+| ⚡ **TypeScript** | Desktop app backends |
+| 🐍 **Python** | Discord bots & automation |
+| 🦀 **Rust** | High-performance tooling |
 | 🖼️ **Tauri** | Lightweight desktop apps |
-| ⚡ **TypeScript** | Web & bot UIs |
+| 🌐 **HTML · CSS · JavaScript** | Websites & UIs |
 
 ---
 
