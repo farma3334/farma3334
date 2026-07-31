@@ -172,6 +172,14 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ---
 
+## <img src="assets/emoji.gif" alt="emoji" width="28"> Now playing
+
+<p align="center">
+  <sub>🎧 Open to music while I build — or find me on <a href="https://discord.com/users/1388316334521319536">Discord</a></sub>
+</p>
+
+---
+
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Let's connect
 
 <p align="center">
