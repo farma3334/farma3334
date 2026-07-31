@@ -45,7 +45,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 </table>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=discord" width="20"> Discord bots · <img src="https://skillicons.dev/icons?i=rust" width="20"> System tools · <img src="https://skillicons.dev/icons?i=tauri" width="20"> Desktop apps · <img src="https://skillicons.dev/icons?i=html" width="20"> Websites
+  <img src="https://skillicons.dev/icons?i=discord" width="20"> Discord bots · <img src="https://skillicons.dev/icons?i=rust" width="20"> System tools · <img src="https://skillicons.dev/icons?i=windows" width="20"> Desktop apps · <img src="https://skillicons.dev/icons?i=html" width="20"> Websites
 </p>
 
 ---
