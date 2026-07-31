@@ -50,6 +50,40 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ---
 
+## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> Tools I use
+
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vscode" width="48"><br>
+      <b>VS Code</b><br>
+      <sub>Editor</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git" width="48"><br>
+      <b>Git</b><br>
+      <sub>Versioning</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=github" width="48"><br>
+      <b>GitHub</b><br>
+      <sub>Hosting</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="48"><br>
+      <b>Node.js</b><br>
+      <sub>Runtime</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=windows" width="48"><br>
+      <b>Windows</b><br>
+      <sub>OS</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> Current project
 
 <p align="center">
