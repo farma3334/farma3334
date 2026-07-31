@@ -6,7 +6,7 @@
 
 ## 👋 Hey, I'm Farma
 
-I'm a desktop app developer who builds tools that make Windows run better — especially for gamers.
+I'm a developer who builds tools that make Windows run better — and Discord bots that keep servers alive and automated.
 
 I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC optimizer that boosts FPS, lowers ping, and keeps your system clean.
 
@@ -16,10 +16,10 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 | Stack | For |
 |:------|:----|
-| 🦀 **Rust** | High-performance desktop backends |
-| ⚛️ **TypeScript + React** | Fast, reactive UIs |
+| 🦀 **Rust** | High-performance backends & system tools |
+| ⚙️ **Python** | Discord bots & automation |
 | 🖼️ **Tauri** | Lightweight desktop apps |
-| ⚙️ **Windows** | System optimization & low-level tooling |
+| ⚡ **TypeScript** | Web & bot UIs |
 
 ---
 

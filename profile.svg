@@ -25,7 +25,7 @@
   <polyline class="hdim" points="14,206 14,14 686,14 686,206 14,206"/>
 
   <text class="mut" x="24" y="26">Farma@profile:~$ whoami</text>
-  <text class="cyn" x="24" y="46">➜  Identity initialized</text>
+  <text class="cyn" x="24" y="46">➜  Modules loaded</text>
 
   <rect class="icon" x="24" y="58" width="40" height="40" rx="4"/>
   <path class="icon" d="M38 82 L44 70 L50 82 Z"/>
@@ -33,10 +33,10 @@
   <path class="icon" d="M34 76 L54 76" />
 
   <text class="name" x="80" y="82">FARMA</text>
-  <text class="title" x="80" y="98">Desktop App Developer · Rust + TypeScript</text>
+  <text class="title" x="80" y="98">Desktop Apps · Discord Bots</text>
 
-  <text class="tag" x="24" y="120">[ OK ]  Currently building: boostUP — PC optimization for gamers</text>
-  <text class="tag" x="24" y="138">[ OK ]  Focus: Windows system optimization · low-level tooling</text>
+  <text class="tag" x="24" y="120">[ OK ]  Desktop apps — Windows optimization & system tooling</text>
+  <text class="tag" x="24" y="138">[ OK ]  Discord bots — automation & server management</text>
 
   <rect class="barfill" x="24" y="152" width="440" height="10" rx="5"/>
   <rect class="bar" x="24" y="152" width="330" height="10" rx="5"/>
