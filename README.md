@@ -64,9 +64,16 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> Let's connect
 
-- 🌐 **Website:** [myboostup.netlify.app](https://myboostup.netlify.app)
-- 💬 **Discord:** [unknown_user54373733](https://discord.com/users/1388316334521319536)
-- 📧 **Email:** _coming soon_
+<p align="center">
+  <a href="https://myboostup.netlify.app"><img src="https://skillicons.dev/icons?i=html" width="32" style="vertical-align: middle" alt="Website"></a>
+  &nbsp;
+  <a href="https://discord.com/users/1388316334521319536"><img src="https://skillicons.dev/icons?i=discord" width="32" style="vertical-align: middle" alt="Discord"></a>
+  &nbsp;
+  <a href="mailto:farma3334@gmail.com"><img src="https://cdn.simpleicons.org/gmail/D9D9D9" width="32" style="vertical-align: middle" alt="Email"></a>
+</p>
+<p align="center">
+  <sub><a href="https://myboostup.netlify.app">Website</a> · <a href="https://discord.com/users/1388316334521319536">Discord</a> · <a href="mailto:farma3334@gmail.com">Email</a></sub>
+</p>
 
 ---
 
