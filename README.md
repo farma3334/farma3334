@@ -4,7 +4,7 @@
 
 ---
 
-## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> Hey, I'm Farma
+## <img src="assets/emoji.gif" alt="emoji" width="28"> Hey, I'm Farma
 
 I'm a developer who builds tools that make Windows run better — and Discord bots that keep servers alive and automated.
 
@@ -12,7 +12,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ---
 
-## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> What I work with
+## <img src="assets/emoji.gif" alt="emoji" width="28"> What I work with
 
 <table align="center">
   <tr>
@@ -50,7 +50,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ---
 
-## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> Tools I use
+## <img src="assets/emoji.gif" alt="emoji" width="28"> Tools I use
 
 <table align="center">
   <tr>
@@ -160,7 +160,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ---
 
-## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> Current project
+## <img src="assets/emoji.gif" alt="emoji" width="28"> Current project
 
 <p align="center">
   <a href="https://myboostup.netlify.app"><img src="https://raw.githubusercontent.com/farma3334/boostUP-/main/coming-soon.svg" alt="boostUP Coming Soon" width="560"></a>
@@ -172,7 +172,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ---
 
-## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> Let's connect
+## <img src="assets/emoji.gif" alt="emoji" width="28"> Let's connect
 
 <p align="center">
   <a href="https://myboostup.netlify.app"><img src="https://skillicons.dev/icons?i=html" width="32" style="vertical-align: middle" alt="Website"></a>
