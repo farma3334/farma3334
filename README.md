@@ -107,6 +107,33 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
       <sub>Docs</sub>
     </td>
   </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=docker" width="48"><br>
+      <b>Docker</b><br>
+      <sub>Containers</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mysql" width="48"><br>
+      <b>MySQL</b><br>
+      <sub>SQL</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mongodb" width="48"><br>
+      <b>MongoDB</b><br>
+      <sub>NoSQL</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=postgres" width="48"><br>
+      <b>PostgreSQL</b><br>
+      <sub>SQL</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=sqlite" width="48"><br>
+      <b>SQLite</b><br>
+      <sub>Embedded</sub>
+    </td>
+  </tr>
 </table>
 
 ---
