@@ -80,6 +80,33 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
       <sub>OS</sub>
     </td>
   </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=npm" width="48"><br>
+      <b>npm</b><br>
+      <sub>Packages</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=discord" width="48"><br>
+      <b>Discord</b><br>
+      <sub>Dev Portal</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=netlify" width="48"><br>
+      <b>Netlify</b><br>
+      <sub>Deploy</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=powershell" width="48"><br>
+      <b>PowerShell</b><br>
+      <sub>Scripting</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=markdown" width="48"><br>
+      <b>Markdown</b><br>
+      <sub>Docs</sub>
+    </td>
+  </tr>
 </table>
 
 ---
