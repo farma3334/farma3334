@@ -70,5 +70,5 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 ---
 
 <p align="center">
-  <sub>Built with ❤️ and lots of coffee · 🦀 Rust + TypeScript</sub>
+  <sub>Built with <img src="https://skillicons.dev/icons?i=rust" width="18"> Rust + <img src="https://skillicons.dev/icons?i=ts" width="18"> TypeScript & a lot of coffee</sub>
 </p>
