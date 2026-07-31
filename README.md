@@ -20,11 +20,10 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 | Stack | For |
 |:------|:----|
-| ⚡ **TypeScript** | Desktop app backends |
-| 🐍 **Python** | Discord bots & automation |
+| ⚡ **TypeScript / JavaScript** | Discord bots & app backends |
 | 🦀 **Rust** | High-performance tooling |
 | 🖼️ **Tauri** | Lightweight desktop apps |
-| 🌐 **HTML · CSS · JavaScript** | Websites & UIs |
+| 🌐 **HTML · CSS** | Websites & UIs |
 
 ---
 
