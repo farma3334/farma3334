@@ -1,19 +1,22 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import math, random
 
-W, H = 700, 260
-SCALE = 2
-SW, SH = W * SCALE, H * SCALE
-FPS = 24
+W, H = 3840, 1536
+SCALE = 1
+SW, SH = W, H
+FPS = 15
 DURATION = int(1000 / FPS)
+TOTAL = 60  # 4s loop
 
-BG = (8, 8, 8, 255)            # near-black like avatar
-PANEL = (16, 16, 15, 255)
-ACCENT = (227, 216, 212)        # warm off-white from avatar
-ACCENT_DIM = (110, 105, 102)
-TEXT = (232, 224, 219)
-MUT = (90, 87, 84)
-WARM = (233, 213, 204)
+BG = (8, 6, 13, 255)
+BASE = (20, 15, 34, 255)
+VIOLET = (117, 89, 178)
+LAV = (217, 194, 255)
+LIGHT = (219, 162, 254)
+MAGENTA = (164, 80, 190)
+DIM = (60, 52, 88)
+TEXT = (222, 212, 240)
+MUT = (110, 100, 140)
 
 NAME_FONT = r"C:\Windows\Fonts\seguisb.ttf"
 MONO_FONT = r"C:\Windows\Fonts\consolab.ttf"
@@ -27,154 +30,137 @@ def clamp255(v):
 def lerp_color(c1, c2, t):
     return tuple(clamp255(c1[i] + (c2[i] - c1[i]) * t) for i in range(3))
 
-def render_name(img, t):
-    letters = "FARMA"
-    f = font(NAME_FONT, int(64 * SCALE))
-    base_x = 116 * SCALE
-    base_y = 88 * SCALE
-    glow = Image.new("RGBA", img.size, (0, 0, 0, 0))
-    gd = ImageDraw.Draw(glow)
-    pulse = 0.16 + 0.20 * math.sin(t * 2.2)
-    gd.text((base_x, base_y), letters, font=f, fill=ACCENT + (int(255 * pulse),))
-    glow = glow.filter(ImageFilter.GaussianBlur(12 * SCALE))
-    img.alpha_composite(glow)
+def draw_blob(img, cx, cy, r, color, strength=90):
+    layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    for i in range(r, 0, -6):
+        a = int(strength * (1 - i / r) ** 1.6)
+        d.ellipse([cx - i, cy - i, cx + i, cy + i], fill=color + (a,))
+    layer = layer.filter(ImageFilter.GaussianBlur(30))
+    img.alpha_composite(layer)
 
-    d = ImageDraw.Draw(img)
-    x = base_x
-    for i, ch in enumerate(letters):
-        phase = ((t - i * 0.32) % 3.0) / 3.0
-        yoff = 0
-        if phase < 0.14:
-            yoff = -int(16 * SCALE * math.sin((phase / 0.14) * math.pi))
-        c = lerp_color(WARM, ACCENT, (math.sin(t * 0.5 + i) + 1) / 2)
-        d.text((x, base_y + 3 * SCALE + yoff), ch, font=f, fill=(0, 0, 0, 200))
-        d.text((x, base_y + yoff), ch, font=f, fill=c)
-        x += d.textlength(ch, font=f) + 6 * SCALE
-
-def draw_bg(img, t):
-    d = ImageDraw.Draw(img)
-    for gy in range(SH):
-        f = gy / SH
-        base = lerp_color((8, 8, 8), (13, 13, 12), f)
-        d.line([0, gy, SW, gy], fill=base)
+def draw_orbs(img, t):
+    # drifting glow orbs like the source banner
+    orbs = [
+        (0.18, 0.25, 0.42, VIOLET, 150),
+        (0.82, 0.30, 0.55, MAGENTA, 130),
+        (0.30, 0.75, 0.35, VIOLET, 110),
+        (0.75, 0.72, 0.28, LAV, 90),
+        (0.50, 0.55, 0.50, (70, 45, 110), 160),
+    ]
+    for i, (bx, by, speed, col, strength) in enumerate(orbs):
+        cx = int(W * (bx + 0.12 * math.sin(t * speed + i * 1.7)))
+        cy = int(H * (by + 0.10 * math.cos(t * speed * 0.8 + i * 2.1)))
+        draw_blob(img, cx, cy, int(H * 0.30), col, strength)
 
 def draw_grid(img, t):
     g = Image.new("RGBA", img.size, (0, 0, 0, 0))
     d = ImageDraw.Draw(g)
-    step = 28 * SCALE
-    offset = int((t * 14 * SCALE) % step)
-    for gx in range(0, SW, step):
-        d.line([gx, 0, gx, SH], fill=ACCENT + (5,))
-    for gy in range(-step, SH + step, step):
-        d.line([0, gy + offset, SW, gy + offset], fill=ACCENT + (5,))
+    step = 90
+    offset = int((t * 30) % step)
+    for gx in range(0, W, step):
+        d.line([gx, 0, gx, H], fill=LAV + (8,))
+    for gy in range(-step, H + step, step):
+        d.line([0, gy + offset, W, gy + offset], fill=LAV + (6,))
     img.alpha_composite(g)
 
-def draw_frame(img, t, emoji_frames):
-    d = ImageDraw.Draw(img)
+def draw_frame(img, t, d):
+    # orbs
+    draw_orbs(img, t)
 
-    d.rounded_rectangle([10 * SCALE, 10 * SCALE, SW - 10 * SCALE, SH - 10 * SCALE],
-                        radius=6 * SCALE, outline=(36, 36, 34, 255), width=2 * SCALE)
-    cb = 22 * SCALE
-    for cx, cy, sx, sy in [(10 * SCALE, 10 * SCALE, 1, 1),
-                           (SW - 10 * SCALE, 10 * SCALE, -1, 1),
-                           (SW - 10 * SCALE, SH - 10 * SCALE, -1, -1),
-                           (10 * SCALE, SH - 10 * SCALE, 1, -1)]:
-        d.line([cx, cy, cx + cb * sx, cy], fill=ACCENT, width=2 * SCALE)
-        d.line([cx, cy, cx, cy + cb * sy], fill=ACCENT, width=2 * SCALE)
+    # subtle film grain / dots
+    prng = random.Random(5)
+    for i in range(140):
+        pxp = (prng.random() * W, prng.random() * H)
+        a = int(8 + 12 * math.sin(t * 2 + i))
+        r = int(2 + (i % 4))
+        d.ellipse([pxp[0], pxp[1], pxp[0] + r, pxp[1] + r], fill=LAV + (a,))
 
-    mf = font(MONO_FONT, int(11 * SCALE))
-    d.text((24 * SCALE, 30 * SCALE), "Farma@profile:~$ ./launch boostUP", font=mf, fill=MUT)
+    # corner brackets
+    cb = 90
+    pul = 120 + 60 * math.sin(t * 2.2)
+    ccol = LAV + (int(pul),)
+    pad = 70
+    for cx, cy, sx, sy in [(pad, pad, 1, 1),
+                           (W - pad, pad, -1, 1),
+                           (pad, H - pad, 1, -1),
+                           (W - pad, H - pad, -1, -1)]:
+        d.line([cx, cy, cx + cb * sx, cy], fill=ccol, width=6)
+        d.line([cx, cy, cx, cy + cb * sy], fill=ccol, width=6)
+
+    # status line
+    mf = font(MONO_FONT, 30)
+    d.text((110, 100), "Farma@profile:~$ ./launch boostUP", font=mf, fill=MUT)
     if int(t * 2) % 2 == 0:
-        d.ellipse([618 * SCALE, 27 * SCALE, 630 * SCALE, 39 * SCALE], fill=ACCENT)
+        d.ellipse([W - 220, 92, W - 180, 132], fill=LAV)
 
-    # top-right LEDs in warm-grey tones
-    for i in range(3):
-        lx = SW - 34 * SCALE - i * 16 * SCALE
-        on = int(t * 3 + i) % 3 == 0
-        d.ellipse([lx, 28 * SCALE, lx + 8 * SCALE, 36 * SCALE],
-                  fill=ACCENT if on else (44, 43, 41))
+    # name glow
+    hf = font(NAME_FONT, 320)
+    words = "FARMA"
+    x = (W - d.textlength(words, font=hf)) // 2
+    y = int(H * 0.40)
+    glow = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    gd.text((x, y), words, font=hf, fill=LAV + (int(70 + 50 * math.sin(t * 2)),))
+    glow = glow.filter(ImageFilter.GaussianBlur(40))
+    img.alpha_composite(glow)
+    # shimmering per-letter gradient
+    xpos = x
+    for i, ch in enumerate(words):
+        col = lerp_color(LIGHT, LAV, (math.sin(t * 1.4 + i * 0.7) + 1) / 2)
+        d.text((xpos, y), ch, font=hf, fill=col + (255,))
+        xpos += d.textlength(ch, font=hf)
 
-    render_name(img, t)
+    # subtitle
+    sf = font(NAME_FONT, 52)
+    sub = "Desktop Apps  \u00b7  Discord Bots"
+    sx = (W - d.textlength(sub, font=sf)) // 2
+    d.text((sx, y + 380), sub, font=sf, fill=TEXT)
 
-    sf = font(NAME_FONT, int(13 * SCALE))
-    d.text((120 * SCALE, 178 * SCALE), "Desktop Apps  \u00b7  Discord Bots", font=sf, fill=TEXT)
+    # progress bar centered
+    pw = int(W * 0.26)
+    px, py = (W - pw) // 2, y + 470
+    d.rounded_rectangle([px, py, px + pw, py + 14], radius=7, fill=(35, 28, 55, 255))
+    prog = min(1.0, ((t * 0.4) % 1.0))
+    d.rounded_rectangle([px, py, px + pw * prog, py + 14], radius=7, fill=LAV)
+    sheen = px + ((t * 2.0 * pw) % (pw + 60)) - 30
+    d.rounded_rectangle([sheen, py, sheen + 40, py + 14], radius=7, fill=(255, 255, 255, 130))
+    d.text((px + pw + 40, py - 8), f"{int(prog * 100)}%", font=mf, fill=LIGHT)
 
-    fi = int(t * 10) % len(emoji_frames)
-    em = emoji_frames[fi].resize((int(54 * SCALE), int(54 * SCALE)), Image.LANCZOS)
-    img.paste(em, (505 * SCALE, 92 * SCALE), em)
-
-    pw = 430 * SCALE
-    px, py = 24 * SCALE, 224 * SCALE
-    d.rounded_rectangle([px, py, px + pw, py + 10 * SCALE], radius=5 * SCALE, fill=(26, 26, 24, 255))
-    prog = min(1.0, ((t * 0.45) % 1.0))
-    w = pw * prog
-    d.rounded_rectangle([px, py, px + w, py + 10 * SCALE], radius=5 * SCALE, fill=ACCENT)
-    sheen_x = px + ((t * 1.6 * pw) % (pw + 40 * SCALE)) - 20 * SCALE
-    d.rounded_rectangle([sheen_x, py, sheen_x + 34 * SCALE, py + 10 * SCALE], radius=5 * SCALE,
-                        fill=(255, 250, 245, 130))
-    pct = int(prog * 100)
-    d.text((px + pw + 14 * SCALE, py - 2 * SCALE), f"{pct}%", font=mf, fill=ACCENT)
-
-    lines = [
-        "\u279c  core modules ready",
-        "\u279c  loading optimizations...",
-        "[ OK ]  profile initialized",
-    ]
-    for li, ln in enumerate(lines):
-        appear_at = li * 0.85
-        local_t = (t - appear_at)
-        if local_t < 0:
-            continue
-        nch = min(len(ln), int(local_t * 26))
-        shown = ln[:nch]
-        y = 190 * SCALE + li * 18 * SCALE
-        col = WARM if ln.startswith("\u279c") else ACCENT
-        d.text((24 * SCALE, y), shown, font=mf, fill=col)
-        if nch < len(ln) and int(t * 3) % 2 == 0:
-            d.text((24 * SCALE + d.textlength(shown, font=mf), y), "_", font=mf, fill=col)
-
-    sy = int(((t * 150 * SCALE) % (SH + 200 * SCALE)) - 100 * SCALE)
+    # scanline
+    sy = int(((t * 500) % (H + 300)) - 150)
     scan = Image.new("RGBA", img.size, (0, 0, 0, 0))
     sd = ImageDraw.Draw(scan)
-    h = 70 * SCALE
+    h = 120
     for i in range(h):
         a = int(9 * math.exp(-i / (h * 0.3)))
-        sd.line([12 * SCALE, sy + i, SW - 12 * SCALE, sy + i], fill=ACCENT + (a,))
+        sd.line([pad, sy + i, W - pad, sy + i], fill=LAV + (a,))
     img.alpha_composite(scan)
 
-    prng = random.Random(7)
-    for i in range(22):
-        pp = (prng.random() * SW, ((prng.random() * SH) - (t * 16 * SCALE) % SH) % SH)
-        a = int(24 + 40 * math.sin(t * 2 + i))
-        d.rectangle([pp[0], pp[1], pp[0] + SCALE, pp[1] + SCALE], fill=ACCENT + (a,))
-
-    d.text((24 * SCALE, 246 * SCALE), "Farma@profile:~$", font=mf, fill=MUT)
-    if int(t * 2.4) % 2 == 0:
-        d.text((24 * SCALE + d.textlength("Farma@profile:~$", font=mf), 246 * SCALE), "_", font=mf, fill=ACCENT)
+    # floating particles
+    prng = random.Random(13)
+    for i in range(60):
+        pp = (prng.random() * W, ((prng.random() * H) - (t * 60) % H) % H)
+        a = int(30 + 60 * math.sin(t * 2.2 + i))
+        r = int(2 + (i % 5))
+        d.ellipse([pp[0], pp[1], pp[0] + r, pp[1] + r], fill=LAV + (a,))
 
 def main():
-    emoji = Image.open(r"C:\Users\RAMZI\AppData\Local\Temp\opencode\farma3334\assets\emoji_anim.webp")
-    emoji_frames = []
-    for f in range(emoji.n_frames):
-        emoji.seek(f)
-        emoji_frames.append(emoji.copy().convert("RGBA"))
-    if len(emoji_frames) == 1:
-        emoji_frames = emoji_frames * 3
-
-    total = int(4.5 * FPS)
     frames = []
-    for i in range(total):
+    for i in range(TOTAL):
         t = i / FPS
         img = Image.new("RGBA", (SW, SH), BG)
-        draw_bg(img, t)
-        draw_grid(img, t)
-        draw_frame(img, t, emoji_frames)
-        down = img.resize((W, H), Image.LANCZOS).convert("P", palette=Image.ADAPTIVE, colors=255)
+        d = ImageDraw.Draw(img)
+        draw_frame(img, t, d)
+        down = img.convert("P", palette=Image.ADAPTIVE, colors=255)
         frames.append(down)
+        if i % 10 == 0:
+            print("frame", i, "/", TOTAL)
 
     out = r"C:\Users\RAMZI\AppData\Local\Temp\opencode\farma3334\farma-banner.gif"
     frames[0].save(out, save_all=True, append_images=frames[1:], duration=DURATION, loop=0, optimize=True)
-    print("wrote", out, "frames:", len(frames))
+    import os
+    print("wrote", out, "frames:", len(frames), "bytes:", os.path.getsize(out))
 
 if __name__ == "__main__":
     main()
