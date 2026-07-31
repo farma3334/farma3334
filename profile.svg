@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="220" viewBox="0 0 700 220" font-family="'Courier New', monospace">
+  <defs>
+    <style>
+      .corner { stroke: #00ff9d; stroke-width: 2; fill: none; }
+      .hdim { stroke: #0a0a0f; stroke-width: 1; fill: none; }
+      .txt { fill: #d0d0d8; font-size: 12px; }
+      .ok  { fill: #00ff9d; font-size: 12px; font-weight: bold; }
+      .mut { fill: #55555f; font-size: 12px; }
+      .cyn { fill: #00e5ff; font-size: 12px; }
+      .name { fill: #00ff9d; font-size: 26px; font-weight: bold; }
+      .title { fill: #e8e8ee; font-size: 13px; }
+      .tag { fill: #00ff9d; font-size: 11px; }
+      .bar { fill: #00ff9d; }
+      .barfill { fill: #0a0a0f; }
+      .icon { fill: none; stroke: #00ff9d; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="220" fill="#0a0a0f"/>
+
+  <polyline class="corner" points="10,32 10,14 28,14"/>
+  <polyline class="corner" points="672,14 690,14 690,32"/>
+  <polyline class="corner" points="690,188 690,206 672,206"/>
+  <polyline class="corner" points="28,206 10,206 10,188"/>
+  <polyline class="hdim" points="14,206 14,14 686,14 686,206 14,206"/>
+
+  <text class="mut" x="24" y="26">Farma@profile:~$ whoami</text>
+  <text class="cyn" x="24" y="46">➜  Identity initialized</text>
+
+  <rect class="icon" x="24" y="58" width="40" height="40" rx="4"/>
+  <path class="icon" d="M38 82 L44 70 L50 82 Z"/>
+  <path d="M44 70 L44 76" stroke="#00ff9d" stroke-width="2"/>
+  <path class="icon" d="M34 76 L54 76" />
+
+  <text class="name" x="80" y="82">FARMA</text>
+  <text class="title" x="80" y="98">Desktop App Developer · Rust + TypeScript</text>
+
+  <text class="tag" x="24" y="120">[ OK ]  Currently building: boostUP — PC optimization for gamers</text>
+  <text class="tag" x="24" y="138">[ OK ]  Focus: Windows system optimization · low-level tooling</text>
+
+  <rect class="barfill" x="24" y="152" width="440" height="10" rx="5"/>
+  <rect class="bar" x="24" y="152" width="330" height="10" rx="5"/>
+  <text class="ok" x="478" y="161">75%</text>
+
+  <text class="mut" x="24" y="188">Farma@profile:~$ _</text>
+</svg>
