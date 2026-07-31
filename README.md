@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="farma-banner.gif" alt="Farma" width="700">
+  <img src="assets/new-banner.png" alt="Farma" width="700">
 </p>
 
 ---
