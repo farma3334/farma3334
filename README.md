@@ -114,24 +114,41 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
       <sub>Containers</sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mysql" width="48"><br>
-      <b>MySQL</b><br>
-      <sub>SQL</sub>
+      <img src="https://skillicons.dev/icons?i=tauri" width="48"><br>
+      <b>Tauri</b><br>
+      <sub>Desktop</sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mongodb" width="48"><br>
-      <b>MongoDB</b><br>
-      <sub>NoSQL</sub>
+      <img src="https://skillicons.dev/icons?i=react" width="48"><br>
+      <b>React</b><br>
+      <sub>UI</sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postgres" width="48"><br>
-      <b>PostgreSQL</b><br>
-      <sub>SQL</sub>
+      <img src="https://skillicons.dev/icons?i=vite" width="48"><br>
+      <b>Vite</b><br>
+      <sub>Build</sub>
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=sqlite" width="48"><br>
-      <b>SQLite</b><br>
-      <sub>Embedded</sub>
+      <img src="https://skillicons.dev/icons?i=tailwind" width="48"><br>
+      <b>Tailwind</b><br>
+      <sub>CSS</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=supabase" width="48"><br>
+      <b>Supabase</b><br>
+      <sub>Backend</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=pnpm" width="48"><br>
+      <b>pnpm</b><br>
+      <sub>Packages</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=rust" width="48"><br>
+      <b>Rust</b><br>
+      <sub>Backend</sub>
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=neovim" width="48"><br>
