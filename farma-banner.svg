@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="260" viewBox="0 0 700 260" font-family="'Courier New', monospace">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff9d"/>
+      <stop offset="50%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff9d" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0.35"/>
+    </linearGradient>
+    <style>
+      .corner { stroke: #00ff9d; stroke-width: 2; fill: none; }
+      .hdim { stroke: #0a0a0f; stroke-width: 1; fill: none; }
+      .mut { fill: #55555f; font-size: 12px; }
+      .cyn { fill: #00e5ff; font-size: 12px; }
+      .ok  { fill: #00ff9d; font-size: 12px; font-weight: bold; }
+      .title { fill: #e8e8ee; font-size: 13px; }
+      .name { font-size: 74px; font-weight: bold; letter-spacing: 10px; }
+      .fillgrad { fill: url(#grad); }
+      .fillglow { fill: url(#glow); }
+      .boot { font-size: 12px; }
+
+      #scanline { animation: scan 3.2s linear infinite; }
+      @keyframes scan { 0% { transform: translateY(-40px); opacity: 0; } 15% { opacity: .5; } 85% { opacity: .5; } 100% { transform: translateY(300px); opacity: 0; } }
+
+      #glowBlur { animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: .15; } 50% { opacity: .5; } }
+
+      #c1 { animation: blink 1s steps(2) infinite; }
+      #c2 { animation: blink 1.2s steps(2) infinite 0.3s; }
+      #c3 { animation: blink 1.4s steps(2) infinite 0.6s; }
+      @keyframes blink { 50% { opacity: 0; } }
+
+      #letterF { animation: lf 6s linear infinite; }
+      #letterA { animation: la 6s linear infinite; }
+      #letterR { animation: lr 6s linear infinite; }
+      #letterM { animation: lm 6s linear infinite; }
+      #letterA2 { animation: la2 6s linear infinite; }
+      @keyframes lf { 0% { transform: translateY(0); } 4% { transform: translateY(-14px); } 8% { transform: translateY(0); } 100% { transform: translateY(0); } }
+      @keyframes la { 0% { transform: translateY(0); } 4% { transform: translateY(0); } 8% { transform: translateY(-14px); } 12% { transform: translateY(0); } 100% { transform: translateY(0); } }
+      @keyframes lr { 0% { transform: translateY(0); } 8% { transform: translateY(0); } 12% { transform: translateY(-14px); } 16% { transform: translateY(0); } 100% { transform: translateY(0); } }
+      @keyframes lm { 0% { transform: translateY(0); } 12% { transform: translateY(0); } 16% { transform: translateY(-14px); } 20% { transform: translateY(0); } 100% { transform: translateY(0); } }
+      @keyframes la2 { 0% { transform: translateY(0); } 16% { transform: translateY(0); } 20% { transform: translateY(-14px); } 24% { transform: translateY(0); } 100% { transform: translateY(0); } }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="260" fill="#0a0a0f"/>
+
+  <polyline class="corner" points="10,38 10,14 34,14"/>
+  <polyline class="corner" points="666,14 690,14 690,38"/>
+  <polyline class="corner" points="690,222 690,246 666,246"/>
+  <polyline class="corner" points="34,246 10,246 10,222"/>
+  <polyline class="hdim" points="14,246 14,14 686,14 686,246 14,246"/>
+
+  <text class="mut" x="24" y="32">Farma@profile:~$ ./launch boostUP</text>
+
+  <text class="name" x="120" y="150" fill="url(#glow)">FARMA</text>
+  <g>
+    <text id="letterF" class="name fillgrad" x="120" y="150">F</text>
+    <text id="letterA" class="name fillgrad" x="192" y="150">A</text>
+    <text id="letterR" class="name fillgrad" x="264" y="150">R</text>
+    <text id="letterM" class="name fillgrad" x="336" y="150">M</text>
+    <text id="letterA2" class="name fillgrad" x="408" y="150">A</text>
+  </g>
+
+  <image x="478" y="96" width="54" height="54" xlink:href="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=64&animated=true" preserveAspectRatio="xMidYMid meet"/>
+
+  <text class="title" x="120" y="178">Desktop Apps · Discord Bots</text>
+
+  <rect id="scanline" x="14" y="-40" width="672" height="90" fill="#00ff9d" opacity="0.06"/>
+
+  <text class="boot cyn" x="24" y="210">➜  core modules ready</text>
+  <text class="boot ok" x="24" y="228">[ OK ]  profile initialized</text>
+  <text class="boot mut" x="24" y="242">Farma@profile:~$ _</text>
+</svg>
