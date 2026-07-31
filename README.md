@@ -45,7 +45,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 </table>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=discord" width="20"> Discord bots · <img src="https://skillicons.dev/icons?i=rust" width="20"> System tools · <img src="https://skillicons.dev/icons?i=windows" width="20"> Desktop apps · <img src="https://skillicons.dev/icons?i=html" width="20"> Websites
+  <img src="https://skillicons.dev/icons?i=discord" width="20" style="vertical-align: middle"> Discord bots · <img src="https://skillicons.dev/icons?i=rust" width="20" style="vertical-align: middle"> System tools · <img src="https://skillicons.dev/icons?i=windows" width="20" style="vertical-align: middle"> Desktop apps · <img src="https://skillicons.dev/icons?i=html" width="20" style="vertical-align: middle"> Websites
 </p>
 
 ---
@@ -70,5 +70,5 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 ---
 
 <p align="center">
-  <sub>Built with <img src="https://skillicons.dev/icons?i=rust" width="18"> Rust + <img src="https://skillicons.dev/icons?i=ts" width="18"> TypeScript & a lot of coffee</sub>
+  <sub>Built with <img src="https://skillicons.dev/icons?i=rust" width="18" style="vertical-align: middle"> Rust + <img src="https://skillicons.dev/icons?i=ts" width="18" style="vertical-align: middle"> TypeScript & a lot of coffee</sub>
 </p>
