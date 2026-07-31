@@ -163,7 +163,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Current project
 
 <p align="center">
-  <a href="https://myboostup.netlify.app"><img src="https://raw.githubusercontent.com/farma3334/boostUP-/main/coming-soon.svg" alt="boostUP Coming Soon" width="560"></a>
+  <a href="https://myboostup.netlify.app"><img src="https://raw.githubusercontent.com/farma3334/boostUP-/main/coming-soon.gif" alt="boostUP Coming Soon" width="420"></a>
 </p>
 
 **boostUP** — Desktop-grade PC optimization for gamers.
