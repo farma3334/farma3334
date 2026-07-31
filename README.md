@@ -14,16 +14,39 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 ## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> What I work with
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,py,js,html,css&perline=5" alt="Tech Stack">
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=ts" width="48"><br>
+      <b>TypeScript</b><br>
+      <sub>Bots · Backends</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=js" width="48"><br>
+      <b>JavaScript</b><br>
+      <sub>Bots · Web</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=rust" width="48"><br>
+      <b>Rust</b><br>
+      <sub>Tooling</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=html" width="48"><br>
+      <b>HTML</b><br>
+      <sub>Structure</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=css" width="48"><br>
+      <b>CSS</b><br>
+      <sub>Design</sub>
+    </td>
+  </tr>
+</table>
 
-| Stack | For |
-|:------|:----|
-| ⚡ **TypeScript / JavaScript** | Discord bots & app backends |
-| 🦀 **Rust** | High-performance tooling |
-| 🖼️ **Tauri** | Lightweight desktop apps |
-| 🌐 **HTML · CSS** | Websites & UIs |
+<p align="center">
+  <sub>🚀 Discord bots · 🦀 System tools · 🖼️ Desktop apps · 🌐 Websites</sub>
+</p>
 
 ---
 
