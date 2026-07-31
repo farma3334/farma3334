@@ -45,7 +45,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 </table>
 
 <p align="center">
-  <a href="https://discord.com/users/1388316334521319536"><img src="https://skillicons.dev/icons?i=discord" width="20" style="vertical-align: middle"></a> Discord bots · <img src="https://skillicons.dev/icons?i=rust" width="20" style="vertical-align: middle"> System tools · <img src="https://skillicons.dev/icons?i=windows" width="20" style="vertical-align: middle"> Desktop apps · <img src="https://skillicons.dev/icons?i=html" width="20" style="vertical-align: middle"> Websites
+  <img src="https://skillicons.dev/icons?i=rust" width="20" style="vertical-align: middle"> System tools · <img src="https://skillicons.dev/icons?i=windows" width="20" style="vertical-align: middle"> Desktop apps · <img src="https://skillicons.dev/icons?i=html" width="20" style="vertical-align: middle"> Websites
 </p>
 
 ---
@@ -65,6 +65,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 ## <img src="https://cdn.discordapp.com/emojis/1519108767910723805.webp?size=32&animated=true" alt="emoji" width="28"> Let's connect
 
 - 🌐 **Website:** [myboostup.netlify.app](https://myboostup.netlify.app)
+- 💬 **Discord:** [unknown_user54373733](https://discord.com/users/1388316334521319536)
 - 📧 **Email:** _coming soon_
 
 ---
