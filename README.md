@@ -11,7 +11,7 @@
 
 I'm a developer who builds tools that make Windows run better — and Discord bots that keep servers alive and automated.
 
-I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC optimizer that boosts FPS, lowers ping, and keeps your system clean.
+I'm currently working on **[boostUP]([https://myboostup.netlify.app](https://boostup-ten.vercel.app/))**, a PC optimizer that boosts FPS, lowers ping, and keeps your system clean.
 
 ---
 
@@ -171,7 +171,7 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 
 **boostUP** — Desktop-grade PC optimization for gamers.
 
-> ⏳ Coming soon. Follow the progress on the [website](https://myboostup.netlify.app).
+> ⏳ Coming soon. Follow the progress on the [website](https://boostup-ten.vercel.app/).
 
 ---
 
