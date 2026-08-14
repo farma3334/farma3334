@@ -5,13 +5,17 @@
   </picture>
 </a>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/farma3334/farma3334/main/contributions.svg" alt="Contribution Graph" width="730">
+</p>
+
 ---
 
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Hey, I'm Farma
 
 I'm a developer who builds tools that make Windows run better — and Discord bots that keep servers alive and automated.
 
-I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC optimizer that boosts FPS, lowers ping, and keeps your system clean.
+I'm currently working on **[boostUP](https://boostup-ten.vercel.app)**, a PC optimizer that boosts FPS, lowers ping, and keeps your system clean.
 
 ---
 
@@ -166,12 +170,12 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Current project
 
 <p align="center">
-  <a href="https://myboostup.netlify.app"><img src="https://raw.githubusercontent.com/farma3334/boostUP-/main/coming-soon.gif" alt="boostUP Coming Soon" width="700"></a>
+  <a href="https://boostup-ten.vercel.app"><img src="https://raw.githubusercontent.com/farma3334/boostUP-/main/coming-soon.gif" alt="boostUP" width="700"></a>
 </p>
 
 **boostUP** — Desktop-grade PC optimization for gamers.
 
-> ⏳ Coming soon. Follow the progress on the [website](https://myboostup.netlify.app).
+> 🚀 **Live now.** Download on the [website](https://boostup-ten.vercel.app/download.html) — v2.2.0.
 
 ---
 
@@ -186,14 +190,14 @@ I'm currently working on **[boostUP](https://myboostup.netlify.app)**, a PC opti
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Let's connect
 
 <p align="center">
-  <a href="https://myboostup.netlify.app"><img src="https://skillicons.dev/icons?i=html" width="32" style="vertical-align: middle" alt="Website"></a>
+  <a href="https://boostup-ten.vercel.app"><img src="https://skillicons.dev/icons?i=html" width="32" style="vertical-align: middle" alt="Website"></a>
   &nbsp;
   <a href="https://discord.com/users/1388316334521319536"><img src="https://skillicons.dev/icons?i=discord" width="32" style="vertical-align: middle" alt="Discord"></a>
   &nbsp;
   <a href="mailto:farma3334@gmail.com"><img src="https://cdn.simpleicons.org/gmail/D9D9D9" width="32" style="vertical-align: middle" alt="Email"></a>
 </p>
 <p align="center">
-  <sub><a href="https://myboostup.netlify.app">Website</a> · <a href="https://discord.com/users/1388316334521319536">Discord</a> · <a href="mailto:farma3334@gmail.com">Email</a></sub>
+  <sub><a href="https://boostup-ten.vercel.app">Website</a> · <a href="https://discord.com/users/1388316334521319536">Discord</a> · <a href="mailto:farma3334@gmail.com">Email</a></sub>
 </p>
 
 ---
