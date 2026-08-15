@@ -134,7 +134,7 @@
 <table align="center" style="border-collapse:separate;border-spacing:0;width:86%;max-width:760px;background:#0D0F1F;border:1px solid rgba(0,212,255,.45);border-radius:18px;box-shadow:0 0 26px rgba(154,107,255,.12)">
   <tr>
     <td align="center" style="padding:26px 24px 6px">
-      <a href="https://boostup-ten.vercel.app"><img src="https://raw.githubusercontent.com/farma3334/farma3334/main/assets/boostup-logo.svg" alt="boostUP" width="240"></a>
+      <a href="https://boostup-ten.vercel.app"><img src="https://raw.githubusercontent.com/farma3334/farma3334/main/assets/boostup-logo.jpg" alt="boostUP" width="260"></a>
     </td>
   </tr>
   <tr>
