@@ -27,57 +27,20 @@ I'm currently working on **[boostUP](https://boostup-ten.vercel.app)**, a PC opt
 
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> What I work with
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=ts" width="48"><br>
-      <b>TypeScript</b><br>
-      <sub>Bots · Backends</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=js" width="48"><br>
-      <b>JavaScript</b><br>
-      <sub>Bots · Web</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=rust" width="48"><br>
-      <b>Rust</b><br>
-      <sub>Tooling</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=html" width="48"><br>
-      <b>HTML</b><br>
-      <sub>Structure</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=css" width="48"><br>
-      <b>CSS</b><br>
-      <sub>Design</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=kotlin" width="48"><br>
-      <b>Kotlin</b><br>
-      <sub>Android · Mobile</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=androidstudio" width="48"><br>
-      <b>Android Studio</b><br>
-      <sub>IDE · Emulator</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=java" width="48"><br>
-      <b>Java</b><br>
-      <sub>Android · Backend</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=android" width="48"><br>
-      <b>Android</b><br>
-      <sub>Platform</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" alt="Android Studio">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android">
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust" width="20" style="vertical-align: middle"> System tools · <img src="https://skillicons.dev/icons?i=windows" width="20" style="vertical-align: middle"> Desktop apps · <img src="https://skillicons.dev/icons?i=ts" width="20" style="vertical-align: middle"> Websites · <img src="https://skillicons.dev/icons?i=kotlin" width="20" style="vertical-align: middle"> Android apps
@@ -87,111 +50,35 @@ I'm currently working on **[boostUP](https://boostup-ten.vercel.app)**, a PC opt
 
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Tools I use
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vscode" width="48"><br>
-      <b>VS Code</b><br>
-      <sub>Editor</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=git" width="48"><br>
-      <b>Git</b><br>
-      <sub>Versioning</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=github" width="48"><br>
-      <b>GitHub</b><br>
-      <sub>Hosting</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="48"><br>
-      <b>Node.js</b><br>
-      <sub>Runtime</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=windows" width="48"><br>
-      <b>Windows</b><br>
-      <sub>OS</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=npm" width="48"><br>
-      <b>npm</b><br>
-      <sub>Packages</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=discord" width="48"><br>
-      <b>Discord</b><br>
-      <sub>Dev Portal</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=netlify" width="48"><br>
-      <b>Netlify</b><br>
-      <sub>Deploy</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=powershell" width="48"><br>
-      <b>PowerShell</b><br>
-      <sub>Scripting</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=markdown" width="48"><br>
-      <b>Markdown</b><br>
-      <sub>Docs</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=docker" width="48"><br>
-      <b>Docker</b><br>
-      <sub>Containers</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tauri" width="48"><br>
-      <b>Tauri</b><br>
-      <sub>Desktop</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="48"><br>
-      <b>React</b><br>
-      <sub>UI</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vite" width="48"><br>
-      <b>Vite</b><br>
-      <sub>Build</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48"><br>
-      <b>Tailwind</b><br>
-      <sub>CSS</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=supabase" width="48"><br>
-      <b>Supabase</b><br>
-      <sub>Backend</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=pnpm" width="48"><br>
-      <b>pnpm</b><br>
-      <sub>Packages</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=rust" width="48"><br>
-      <b>Rust</b><br>
-      <sub>Backend</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=neovim" width="48"><br>
-      <b>Neovim</b><br>
-      <sub>Editor</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord">
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify">
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
+  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" alt="Tauri">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white" alt="pnpm">
+  <img src="https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white" alt="Neovim">
+</p>
 
 ---
 
