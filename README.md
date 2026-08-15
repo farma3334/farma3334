@@ -82,6 +82,33 @@ I'm currently working on **[boostUP](https://boostup-ten.vercel.app)**, a PC opt
 
 ---
 
+## <img src="assets/emoji.gif" alt="emoji" width="28"> Academic & Research
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Academia-41454A?style=for-the-badge&logo=academia&logoColor=white" alt="Academia">
+  <img src="https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv">
+  <img src="https://img.shields.io/badge/DOI-0085CA?style=for-the-badge&logo=doi&logoColor=white" alt="DOI">
+  <img src="https://img.shields.io/badge/Elsevier-FF6C00?style=for-the-badge&logo=elsevier&logoColor=white" alt="Elsevier">
+  <img src="https://img.shields.io/badge/figshare-556472?style=for-the-badge&logo=figshare&logoColor=white" alt="figshare">
+  <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar">
+  <img src="https://img.shields.io/badge/Mendeley-9D1620?style=for-the-badge&logo=mendeley&logoColor=white" alt="Mendeley">
+  <img src="https://img.shields.io/badge/Open%20Access-F68212?style=for-the-badge&logo=openaccess&logoColor=white" alt="Open Access">
+  <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OSF-2CB9F1?style=for-the-badge&logo=osf&logoColor=white" alt="OSF">
+  <img src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=white" alt="Overleaf">
+  <img src="https://img.shields.io/badge/PubMed-326599?style=for-the-badge&logo=pubmed&logoColor=white" alt="PubMed">
+  <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate">
+  <img src="https://img.shields.io/badge/Scopus-E9711C?style=for-the-badge&logo=scopus&logoColor=white" alt="Scopus">
+  <img src="https://img.shields.io/badge/Semantic%20Scholar-1857B6?style=for-the-badge&logo=semanticscholar&logoColor=white" alt="Semantic Scholar">
+  <img src="https://img.shields.io/badge/Zenodo-1682D4?style=for-the-badge&logo=zenodo&logoColor=white" alt="Zenodo">
+  <img src="https://img.shields.io/badge/Zotero-CC2936?style=for-the-badge&logo=zotero&logoColor=white" alt="Zotero">
+</p>
+
+---
+
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Current project
 
 <p align="center">
