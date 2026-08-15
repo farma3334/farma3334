@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" fill="none">
+  <defs>
+    <!-- Metallic Silver Gradient (vertical) -->
+    <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="20%" style="stop-color:#F0F1F3"/>
+      <stop offset="50%" style="stop-color:#D8DADF"/>
+      <stop offset="80%" style="stop-color:#B0B3B8"/>
+      <stop offset="100%" style="stop-color:#8A8E94"/>
+    </linearGradient>
+    <!-- Metallic Silver Gradient (diagonal for bowl) -->
+    <linearGradient id="silverD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8EAED"/>
+      <stop offset="30%" style="stop-color:#D0D3D8"/>
+      <stop offset="60%" style="stop-color:#B8BBC2"/>
+      <stop offset="100%" style="stop-color:#9CA0A8"/>
+    </linearGradient>
+    <!-- Blue Arrow Gradient -->
+    <linearGradient id="blueArrow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0055DD"/>
+      <stop offset="30%" style="stop-color:#0088FF"/>
+      <stop offset="60%" style="stop-color:#00BBFF"/>
+      <stop offset="100%" style="stop-color:#44EEFF"/>
+    </linearGradient>
+    <!-- Blue Text Gradient -->
+    <linearGradient id="blueText" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0066EE"/>
+      <stop offset="50%" style="stop-color:#00AAFF"/>
+      <stop offset="100%" style="stop-color:#44DDFF"/>
+    </linearGradient>
+    <!-- Silver Text Gradient -->
+    <linearGradient id="silverText" x1="0%" y1="0%" x2="100%" y2="40%">
+      <stop offset="0%" style="stop-color:#F8F9FA"/>
+      <stop offset="30%" style="stop-color:#E0E2E6"/>
+      <stop offset="70%" style="stop-color:#C0C3C8"/>
+      <stop offset="100%" style="stop-color:#9CA0A8"/>
+    </linearGradient>
+    <!-- Arrow Glow Filter -->
+    <filter id="arrowGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <!-- Soft Outer Glow -->
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Bevel highlight -->
+    <linearGradient id="bevelLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:white;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:black;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== ICON ===== -->
+  <g transform="translate(180, 60)">
+
+    <!-- Soft blue ambient glow behind arrow -->
+    <ellipse cx="430" cy="280" rx="200" ry="180" fill="#0088FF" opacity="0.08" filter="url(#softGlow)"/>
+
+    <!-- ===== BLUE ARROW (behind the b) ===== -->
+    <!-- Arrow shaft - thick, going up-right at ~65 degrees -->
+    <g filter="url(#arrowGlow)">
+      <!-- Main shaft -->
+      <polygon points="390,520 520,200 560,220 430,540" fill="url(#blueArrow)"/>
+      <!-- Arrow head - large triangular -->
+      <polygon points="480,160 620,160 620,300 590,300 590,230 530,290 510,270 570,210 480,160" fill="url(#blueArrow)"/>
+    </g>
+
+    <!-- ===== LETTER "b" - LEFT VERTICAL BAR ===== -->
+    <!-- Tall metallic piece with pointed top -->
+    <path d="
+      M 280 120
+      L 340 80
+      L 380 120
+      L 380 520
+      L 360 540
+      L 280 540
+      L 260 520
+      Z
+    " fill="url(#silverV)"/>
+    <!-- Bevel edge highlight on left bar -->
+    <path d="
+      M 280 120
+      L 340 80
+      L 380 120
+      L 380 180
+    " stroke="white" stroke-width="3" fill="none" opacity="0.5"/>
+    <path d="
+      M 260 520
+      L 260 180
+    " stroke="white" stroke-width="2" fill="none" opacity="0.25"/>
+
+    <!-- ===== LETTER "b" - BOWL (CURVED PART) ===== -->
+    <!-- Angular curved shape forming the bowl -->
+    <path d="
+      M 370 260
+      L 440 220
+      L 500 240
+      L 520 300
+      L 500 380
+      L 440 420
+      L 380 420
+      L 370 400
+      L 370 260
+      Z
+    " fill="url(#silverD)"/>
+    <!-- Inner edge / bevel on bowl -->
+    <path d="
+      M 380 280
+      L 430 250
+      L 480 260
+      L 490 300
+    " stroke="white" stroke-width="2.5" fill="none" opacity="0.4"/>
+    <path d="
+      M 380 400
+      L 380 280
+    " stroke="white" stroke-width="2" fill="none" opacity="0.2"/>
+
+    <!-- Bottom connection to left bar -->
+    <path d="
+      M 280 480
+      L 370 480
+      L 380 420
+      L 370 400
+      L 280 400
+      Z
+    " fill="url(#silverV)" opacity="0.9"/>
+
+    <!-- ===== SUBTLE SHADOWS ===== -->
+    <!-- Shadow under the b -->
+    <ellipse cx="400" cy="560" rx="140" ry="12" fill="#000" opacity="0.3"/>
+
+  </g>
+
+  <!-- ===== BLUE LIGHT STREAK AT BOTTOM ===== -->
+  <g transform="translate(180, 60)">
+    <ellipse cx="400" cy="580" rx="120" ry="6" fill="#00AAFF" opacity="0.15"/>
+    <ellipse cx="400" cy="580" rx="60" ry="3" fill="#44EEFF" opacity="0.35"/>
+    <ellipse cx="400" cy="580" rx="20" ry="2" fill="white" opacity="0.3"/>
+  </g>
+
+  <!-- ===== WORDMARK ===== -->
+  <!-- "boost" - Metallic silver, italic -->
+  <text x="170" y="870"
+        font-family="'Inter', 'Segoe UI', 'Arial', system-ui, sans-serif"
+        font-size="140"
+        font-weight="900"
+        font-style="italic"
+        fill="url(#silverText)"
+        letter-spacing="-4">boost</text>
+
+  <!-- "UP" - Blue gradient, bold -->
+  <text x="730" y="870"
+        font-family="'Inter', 'Segoe UI', 'Arial', system-ui, sans-serif"
+        font-size="150"
+        font-weight="900"
+        fill="url(#blueText)"
+        letter-spacing="-3">UP</text>
+
+  <!-- Subtle underline glow -->
+  <rect x="170" y="890" width="780" height="2" rx="1" fill="url(#blueText)" opacity="0.12"/>
+
+</svg>

@@ -9,6 +9,12 @@
   <img src="https://raw.githubusercontent.com/farma3334/farma3334/main/contributions.svg" alt="Contribution Graph" width="730">
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=farma3334&show_icons=true&theme=react&hide_border=true&rank_icon=github" alt="GitHub Stats" width="380">
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=farma3334&layout=compact&theme=react&hide_border=true" alt="Top Languages" width="300">
+</p>
+
 ---
 
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Hey, I'm Farma
@@ -49,10 +55,32 @@ I'm currently working on **[boostUP](https://boostup-ten.vercel.app)**, a PC opt
       <sub>Design</sub>
     </td>
   </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=kotlin" width="48"><br>
+      <b>Kotlin</b><br>
+      <sub>Android · Mobile</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=androidstudio" width="48"><br>
+      <b>Android Studio</b><br>
+      <sub>IDE · Emulator</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=java" width="48"><br>
+      <b>Java</b><br>
+      <sub>Android · Backend</sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=android" width="48"><br>
+      <b>Android</b><br>
+      <sub>Platform</sub>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust" width="20" style="vertical-align: middle"> System tools · <img src="https://skillicons.dev/icons?i=windows" width="20" style="vertical-align: middle"> Desktop apps · <img src="https://skillicons.dev/icons?i=ts" width="20" style="vertical-align: middle"> Websites · <img src="https://skillicons.dev/icons?i=html" width="20" style="vertical-align: middle"> Dashboard
+  <img src="https://skillicons.dev/icons?i=rust" width="20" style="vertical-align: middle"> System tools · <img src="https://skillicons.dev/icons?i=windows" width="20" style="vertical-align: middle"> Desktop apps · <img src="https://skillicons.dev/icons?i=ts" width="20" style="vertical-align: middle"> Websites · <img src="https://skillicons.dev/icons?i=kotlin" width="20" style="vertical-align: middle"> Android apps
 </p>
 
 ---
@@ -170,12 +198,18 @@ I'm currently working on **[boostUP](https://boostup-ten.vercel.app)**, a PC opt
 ## <img src="assets/emoji.gif" alt="emoji" width="28"> Current project
 
 <p align="center">
-  <a href="https://boostup-ten.vercel.app"><img src="https://raw.githubusercontent.com/farma3334/boostUP-/main/coming-soon.gif" alt="boostUP" width="700"></a>
+  <a href="https://boostup-ten.vercel.app"><img src="https://raw.githubusercontent.com/farma3334/farma3334/main/assets/boostup-logo.svg" alt="boostUP" width="260"></a>
 </p>
 
-**boostUP** — Desktop-grade PC optimization for gamers.
+**boostUP** — Desktop-grade PC optimization for gamers, with a native Android companion.
 
-> 🚀 **Live now.** Download on the [website](https://boostup-ten.vercel.app/download.html) — v2.2.0.
+> 🚀 **PC v2.2.0** — download on the [website](https://boostup-ten.vercel.app/download.html)
+> 🤖 **Android v1.1.0** — download the [APK on GitHub](https://github.com/farma3334/boostUP-releases/releases/latest)
+
+<p align="center">
+  <a href="https://boostup-ten.vercel.app/download.html"><img src="https://img.shields.io/badge/PC%20v2.2.0-Download-00D4FF?style=for-the-badge&logo=windows&logoColor=white" alt="PC Download"></a>
+  <a href="https://github.com/farma3334/boostUP-releases/releases/latest"><img src="https://img.shields.io/badge/Android%20v1.1.0-Download%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android APK"></a>
+</p>
 
 ---
 
@@ -203,5 +237,5 @@ I'm currently working on **[boostUP](https://boostup-ten.vercel.app)**, a PC opt
 ---
 
 <p align="center">
-  <sub>Built with <img src="https://skillicons.dev/icons?i=rust" width="18" style="vertical-align: middle"> Rust + <img src="https://skillicons.dev/icons?i=ts" width="18" style="vertical-align: middle"> TypeScript & a lot of coffee</sub>
+  <sub>Built with <img src="https://skillicons.dev/icons?i=rust" width="18" style="vertical-align: middle"> Rust + <img src="https://skillicons.dev/icons?i=ts" width="18" style="vertical-align: middle"> TypeScript + <img src="https://skillicons.dev/icons?i=kotlin" width="18" style="vertical-align: middle"> Kotlin & a lot of coffee</sub>
 </p>
