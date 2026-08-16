@@ -32,10 +32,6 @@
 <!-- ═══════════ STATS ═══════════ -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/farma3334/farma3334/main/contributions.svg" alt="Contribution Graph" width="730">
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=farma3334&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" width="380">
   &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=farma3334&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="300">
