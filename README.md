@@ -155,7 +155,7 @@
   <tr>
     <td align="center" style="padding:14px 24px 24px">
       <a href="https://boostup-ten.vercel.app/download.html" style="display:inline-block;padding:11px 24px;border-radius:9999px;background:linear-gradient(135deg,#00D4FF,#0099CC);color:#fff;font-weight:700;text-decoration:none;margin:4px;box-shadow:0 5px 18px rgba(0,212,255,.45);font-size:15px">⬇ PC v2.2.0 · Download</a>
-      <a href="https://github.com/farma3334/boostUP-releases/releases/latest" style="display:inline-block;padding:11px 24px;border-radius:9999px;background:linear-gradient(135deg,#3DDC84,#0F9D58);color:#fff;font-weight:700;text-decoration:none;margin:4px;box-shadow:0 5px 18px rgba(61,220,132,.45);font-size:15px">🤖 Android v1.1.0 · Download APK</a>
+      <a href="https://github.com/farma3334/boostUP-releases/releases/latest" style="display:inline-block;padding:11px 24px;border-radius:9999px;background:linear-gradient(135deg,#3DDC84,#0F9D58);color:#fff;font-weight:700;text-decoration:none;margin:4px;box-shadow:0 5px 18px rgba(61,220,132,.45);font-size:15px">🤖 Android v1.1.1 · Download APK</a>
     </td>
   </tr>
 </table>
